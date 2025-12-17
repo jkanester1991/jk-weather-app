@@ -1,9 +1,18 @@
 body {
-  color: rgb(26, 26, 51);
+  background-color: rgb(236, 252, 236);
 }
 
 .weather-app {
-  background: rgb(211, 250, 211);
+  background: white;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  margin: 100px auto 20px;
+  font-family: monospace;
 }
