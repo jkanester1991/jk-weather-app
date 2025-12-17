@@ -17,8 +17,11 @@ function refreshWeather(response) {
   let cityTime = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
 
-  cityTemp.innerHTML = Math.round(temperature);
+  let iconImage = document.querySelector("#icon");
+
   cityName.innerHTML = response.data.city;
+  iconImage.innerHTML = `<img src="${response.data.condition.icon_url}"/>`;
+  cityTemp.innerHTML = Math.round(temperature);
   cityTime.innerHTML = formatDate(date);
   cityConditions.innerHTML = conditions;
   cityHumidity.innerHTML = `${humidity}%`;
