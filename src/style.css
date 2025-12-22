@@ -72,7 +72,7 @@ main {
 }
 
 .city-details strong {
-  color: pink;
+  color: rgb(194, 82, 246);
 }
 
 .city-temp-container {
@@ -110,14 +110,16 @@ main {
   line-height: 20px;
 }
 .forecast-icon {
-  font-size: 30px;
-  padding: 20px 20px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  opacity: 50%;
 }
 .forecast-temps {
   display: flex;
   justify-content: space-between;
-  padding: 0 7px;
-  color: rgb(246, 82, 130);
+  padding: 0 14px;
+  color: rgb(194, 82, 246);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -125,7 +127,7 @@ main {
 }
 .forecast-low {
   font-weight: 700;
-  color: rgb(246, 82, 130, 0.7);
+  color: rgb(194, 82, 246, 0.7);
 }
 
 footer {
