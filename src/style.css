@@ -96,6 +96,38 @@ main {
   font-size: 28px;
 }
 
+.weekly-forecast {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.forecast-day {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.forecast-icon {
+  font-size: 30px;
+  padding: 20px 20px;
+}
+.forecast-temps {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7px;
+  color: rgb(246, 82, 130);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.forecast-low {
+  font-weight: 700;
+  color: rgb(246, 82, 130, 0.7);
+}
+
 footer {
   margin: 20px auto 20px;
   font-family: monospace;
